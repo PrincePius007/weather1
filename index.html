@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Weather App</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container-fluid ">
+        <div class="app-main">
+            <div class="searchInputBox">
+                <h2> Fun<span style="color: brown;"> Weather</span> API</h2>
+                <input type="text" id="input-box" class="input-box" placeholder="Enter city name..." autocomplete="off">
+            </div>
+    
+            <div class="weather-body">
+                <div class="location-details">
+                    <div class="city" id="city">enter once more,IN</div>
+                    <div class="date" id="date">10 June (Wednesday), 2020</div>
+                </div> 
+    
+                <div class="weather-status">
+                    <div class="temp" id="temp">34&deg;C</div>
+                    <div class="min-max" id="min-max">32&deg;C (min) / 34&deg;C (max)</div>
+                    <div class="weather" id="weather">Clear</div>
+                    <div id="img"></div>
+                </div>
+            </div>
+        </div>
+  </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
